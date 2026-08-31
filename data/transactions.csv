@@ -1,13 +1,201 @@
-date,description,category,amount,type
-2026-07-02,Amazon Shopping,Shopping,62000,Debit
-2026-07-05,Electricity Bill,Bills,12500,Debit
-2026-07-08,Flight Booking,Travel,55000,Debit
-2026-07-12,Restaurant,Food,3200,Debit
-2026-07-15,Salary,Credit,85000,Credit
-2026-07-18,Hospital,Medical,52000,Debit
-2026-07-22,Flipkart Shopping,Shopping,75000,Debit
-2026-07-25,Hotel Booking,Travel,48000,Debit
-2026-07-28,Insurance,Bills,30000,Debit
-2026-07-30,Electronics Store,Shopping,95000,Debit
-2026-08-02,Restaurant,Food,2500,Debit
-2026-08-05,Shopping,Shopping,18000,Debit
+transaction_id,date,merchant,category,amount,transaction_type,payment_method
+TXN0001,2026-07-01,Amazon,Shopping,72500,Expense,UPI
+TXN0002,2026-07-01,Swiggy,Food,1250,Expense,UPI
+TXN0003,2026-07-01,IRCTC,Travel,58200,Expense,Debit Card
+TXN0004,2026-07-02,Airtel,Bills,899,Expense,UPI
+TXN0005,2026-07-02,Flipkart,Shopping,68500,Expense,Credit Card
+TXN0006,2026-07-02,College Fees,Education,95000,Expense,Net Banking
+TXN0007,2026-07-03,Uber,Travel,850,Expense,UPI
+TXN0008,2026-07-03,Croma,Electronics,125000,Expense,Credit Card
+TXN0009,2026-07-03,Zomato,Food,1850,Expense,UPI
+TXN0010,2026-07-04,Hostel Rent,Rent,55000,Expense,Net Banking
+TXN0011,2026-07-04,Amazon,Shopping,24500,Expense,UPI
+TXN0012,2026-07-05,Hospital,Healthcare,78000,Expense,Debit Card
+TXN0013,2026-07-05,Netflix,Entertainment,649,Expense,Credit Card
+TXN0014,2026-07-06,MakeMyTrip,Travel,112000,Expense,Credit Card
+TXN0015,2026-07-06,Reliance Digital,Electronics,89000,Expense,Credit Card
+TXN0016,2026-07-07,Jio,Bills,799,Expense,UPI
+TXN0017,2026-07-07,Udemy,Education,2499,Expense,Debit Card
+TXN0018,2026-07-08,House Rent,Rent,65000,Expense,Net Banking
+TXN0019,2026-07-08,Flipkart,Shopping,54000,Expense,UPI
+TXN0020,2026-07-09,Apollo Pharmacy,Healthcare,3200,Expense,Debit Card
+TXN0021,2026-07-09,BookMyShow,Entertainment,1800,Expense,UPI
+TXN0022,2026-07-10,Insurance,Bills,125000,Expense,Net Banking
+TXN0023,2026-07-10,Restaurant,Food,3200,Expense,Credit Card
+TXN0024,2026-07-11,Apple Store,Electronics,185000,Expense,Credit Card
+TXN0025,2026-07-11,Ola,Travel,720,Expense,UPI
+TXN0026,2026-07-12,Myntra,Shopping,58000,Expense,Credit Card
+TXN0027,2026-07-12,Electricity,Utilities,4200,Expense,UPI
+TXN0028,2026-07-13,Coursera,Education,3999,Expense,Credit Card
+TXN0029,2026-07-13,Hospital,Healthcare,650000,Expense,Debit Card
+TXN0030,2026-07-14,Spotify,Entertainment,199,Expense,UPI
+TXN0031,2026-07-14,Amazon,Shopping,50500,Expense,UPI
+TXN0032,2026-07-15,IRCTC,Travel,52000,Expense,Debit Card
+TXN0033,2026-07-15,Water Bill,Utilities,1200,Expense,UPI
+TXN0034,2026-07-16,College Fees,Education,120000,Expense,Net Banking
+TXN0035,2026-07-16,Swiggy,Food,2100,Expense,UPI
+TXN0036,2026-07-17,Croma,Electronics,72000,Expense,Credit Card
+TXN0037,2026-07-17,Airtel,Bills,999,Expense,UPI
+TXN0038,2026-07-18,House Rent,Rent,60000,Expense,Net Banking
+TXN0039,2026-07-18,Amazon,Shopping,34000,Expense,UPI
+TXN0040,2026-07-19,MakeMyTrip,Travel,78000,Expense,Credit Card
+TXN0041,2026-07-19,Medical Store,Healthcare,2600,Expense,UPI
+TXN0042,2026-07-20,Netflix,Entertainment,649,Expense,Credit Card
+TXN0043,2026-07-20,Reliance Digital,Electronics,99000,Expense,Credit Card
+TXN0044,2026-07-21,Jio,Bills,899,Expense,UPI
+TXN0045,2026-07-21,Book Store,Education,2800,Expense,Debit Card
+TXN0046,2026-07-22,Hostel Rent,Rent,55000,Expense,Net Banking
+TXN0047,2026-07-22,Flipkart,Shopping,51000,Expense,UPI
+TXN0048,2026-07-23,Hospital,Healthcare,52000,Expense,Debit Card
+TXN0049,2026-07-23,BookMyShow,Entertainment,2200,Expense,UPI
+TXN0050,2026-07-24,Insurance,Bills,95000,Expense,Net Banking
+TXN0051,2026-07-24,Zomato,Food,1600,Expense,UPI
+TXN0052,2026-07-25,Apple Store,Electronics,275000,Expense,Credit Card
+TXN0053,2026-07-25,Uber,Travel,950,Expense,UPI
+TXN0054,2026-07-26,Myntra,Shopping,57000,Expense,Credit Card
+TXN0055,2026-07-26,Electricity,Utilities,3800,Expense,UPI
+TXN0056,2026-07-27,Udemy,Education,2999,Expense,Credit Card
+TXN0057,2026-07-27,House Rent,Rent,62000,Expense,Net Banking
+TXN0058,2026-07-28,Amazon,Shopping,73000,Expense,UPI
+TXN0059,2026-07-28,Apollo Pharmacy,Healthcare,4100,Expense,Debit Card
+TXN0060,2026-07-29,Spotify,Entertainment,199,Expense,UPI
+TXN0061,2026-07-29,IRCTC,Travel,68000,Expense,Debit Card
+TXN0062,2026-07-30,Water Bill,Utilities,1400,Expense,UPI
+TXN0063,2026-07-30,College Fees,Education,85000,Expense,Net Banking
+TXN0064,2026-07-31,Swiggy,Food,2400,Expense,UPI
+TXN0065,2026-07-31,Croma,Electronics,64000,Expense,Credit Card
+TXN0066,2026-07-31,Airtel,Bills,899,Expense,UPI
+TXN0067,2026-07-31,House Rent,Rent,65000,Expense,Net Banking
+TXN0068,2026-07-31,Amazon,Shopping,56000,Expense,UPI
+TXN0069,2026-07-31,Hospital,Healthcare,88000,Expense,Debit Card
+TXN0070,2026-07-31,Netflix,Entertainment,649,Expense,Credit Card
+TXN0071,2026-07-31,MakeMyTrip,Travel,145000,Expense,Credit Card
+TXN0072,2026-07-31,Reliance Digital,Electronics,76000,Expense,Credit Card
+TXN0073,2026-07-31,Jio,Bills,799,Expense,UPI
+TXN0074,2026-07-31,Coursera,Education,4999,Expense,Credit Card
+TXN0075,2026-07-31,Hospital,Healthcare,1000000,Expense,Debit Card
+TXN0076,2026-07-31,BookMyShow,Entertainment,2500,Expense,UPI
+TXN0077,2026-07-31,Insurance,Bills,110000,Expense,Net Banking
+TXN0078,2026-07-31,Restaurant,Food,3500,Expense,Credit Card
+TXN0079,2026-07-31,Apple Store,Electronics,195000,Expense,Credit Card
+TXN0080,2026-07-31,Ola,Travel,850,Expense,UPI
+TXN0081,2026-07-31,Myntra,Shopping,62000,Expense,Credit Card
+TXN0082,2026-07-31,Electricity,Utilities,4500,Expense,UPI
+TXN0083,2026-07-31,College Fees,Education,100000,Expense,Net Banking
+TXN0084,2026-07-31,Amazon,Shopping,50000,Expense,UPI
+TXN0085,2026-07-31,Flipkart,Shopping,50001,Expense,UPI
+TXN0086,2026-07-31,Apollo Pharmacy,Healthcare,3500,Expense,Debit Card
+TXN0087,2026-07-31,Hostel Rent,Rent,55000,Expense,Net Banking
+TXN0088,2026-07-31,IRCTC,Travel,72000,Expense,Debit Card
+TXN0089,2026-07-31,Spotify,Entertainment,199,Expense,UPI
+TXN0090,2026-07-31,Croma,Electronics,92000,Expense,Credit Card
+TXN0091,2026-07-31,Airtel,Bills,999,Expense,UPI
+TXN0092,2026-07-31,House Rent,Rent,68000,Expense,Net Banking
+TXN0093,2026-07-31,Amazon,Shopping,58000,Expense,UPI
+TXN0094,2026-07-31,Medical Store,Healthcare,2900,Expense,Debit Card
+TXN0095,2026-07-31,MakeMyTrip,Travel,89000,Expense,Credit Card
+TXN0096,2026-07-31,Netflix,Entertainment,649,Expense,Credit Card
+TXN0097,2026-07-31,Reliance Digital,Electronics,115000,Expense,Credit Card
+TXN0098,2026-07-31,Jio,Bills,899,Expense,UPI
+TXN0099,2026-07-31,Book Store,Education,3200,Expense,Debit Card
+TXN0100,2026-07-31,Insurance,Bills,150000,Expense,Net Banking
+TXN0101,2026-08-01,Amazon,Shopping,62500,Expense,UPI
+TXN0102,2026-08-02,Swiggy,Food,1850,Expense,UPI
+TXN0103,2026-08-03,IRCTC,Travel,74500,Expense,Debit Card
+TXN0104,2026-08-04,Airtel,Bills,899,Expense,UPI
+TXN0105,2026-08-05,Flipkart,Shopping,68500,Expense,Credit Card
+TXN0106,2026-08-06,College Fees,Education,90000,Expense,Net Banking
+TXN0107,2026-08-07,Uber,Travel,920,Expense,UPI
+TXN0108,2026-08-08,Croma,Electronics,135000,Expense,Credit Card
+TXN0109,2026-08-09,Zomato,Food,2250,Expense,UPI
+TXN0110,2026-08-10,Hostel Rent,Rent,55000,Expense,Net Banking
+TXN0111,2026-08-11,Amazon,Shopping,28500,Expense,UPI
+TXN0112,2026-08-12,Hospital,Healthcare,82000,Expense,Debit Card
+TXN0113,2026-08-13,Netflix,Entertainment,649,Expense,Credit Card
+TXN0114,2026-08-14,MakeMyTrip,Travel,118000,Expense,Credit Card
+TXN0115,2026-08-15,Reliance Digital,Electronics,87000,Expense,Credit Card
+TXN0116,2026-08-16,Jio,Bills,799,Expense,UPI
+TXN0117,2026-08-17,Udemy,Education,2499,Expense,Debit Card
+TXN0118,2026-08-18,House Rent,Rent,65000,Expense,Net Banking
+TXN0119,2026-08-19,Flipkart,Shopping,54500,Expense,UPI
+TXN0120,2026-08-20,Apollo Pharmacy,Healthcare,3500,Expense,Debit Card
+TXN0121,2026-08-21,BookMyShow,Entertainment,2100,Expense,UPI
+TXN0122,2026-08-22,Insurance,Bills,135000,Expense,Net Banking
+TXN0123,2026-08-23,Restaurant,Food,3400,Expense,Credit Card
+TXN0124,2026-08-24,Apple Store,Electronics,185000,Expense,Credit Card
+TXN0125,2026-08-25,Ola,Travel,780,Expense,UPI
+TXN0126,2026-08-26,Myntra,Shopping,59500,Expense,Credit Card
+TXN0127,2026-08-27,Electricity,Utilities,4300,Expense,UPI
+TXN0128,2026-08-28,Coursera,Education,3999,Expense,Credit Card
+TXN0129,2026-08-29,Hospital,Healthcare,620000,Expense,Debit Card
+TXN0130,2026-08-30,Spotify,Entertainment,199,Expense,UPI
+TXN0131,2026-08-31,Amazon,Shopping,51500,Expense,UPI
+TXN0132,2026-08-01,IRCTC,Travel,57000,Expense,Debit Card
+TXN0133,2026-08-02,Water Bill,Utilities,1300,Expense,UPI
+TXN0134,2026-08-03,College Fees,Education,125000,Expense,Net Banking
+TXN0135,2026-08-04,Swiggy,Food,1950,Expense,UPI
+TXN0136,2026-08-05,Croma,Electronics,78000,Expense,Credit Card
+TXN0137,2026-08-06,Airtel,Bills,999,Expense,UPI
+TXN0138,2026-08-07,House Rent,Rent,62000,Expense,Net Banking
+TXN0139,2026-08-08,Amazon,Shopping,37500,Expense,UPI
+TXN0140,2026-08-09,MakeMyTrip,Travel,82000,Expense,Credit Card
+TXN0141,2026-08-10,Medical Store,Healthcare,2800,Expense,UPI
+TXN0142,2026-08-11,Netflix,Entertainment,649,Expense,Credit Card
+TXN0143,2026-08-12,Reliance Digital,Electronics,105000,Expense,Credit Card
+TXN0144,2026-08-13,Jio,Bills,899,Expense,UPI
+TXN0145,2026-08-14,Book Store,Education,2900,Expense,Debit Card
+TXN0146,2026-08-15,Hostel Rent,Rent,55000,Expense,Net Banking
+TXN0147,2026-08-16,Flipkart,Shopping,53000,Expense,UPI
+TXN0148,2026-08-17,Hospital,Healthcare,56000,Expense,Debit Card
+TXN0149,2026-08-18,BookMyShow,Entertainment,2300,Expense,UPI
+TXN0150,2026-08-19,Insurance,Bills,98000,Expense,Net Banking
+TXN0151,2026-08-20,Amazon,Shopping,71000,Expense,UPI
+TXN0152,2026-08-21,Swiggy,Food,1450,Expense,UPI
+TXN0153,2026-08-22,IRCTC,Travel,63500,Expense,Debit Card
+TXN0154,2026-08-23,Airtel,Bills,799,Expense,UPI
+TXN0155,2026-08-24,Flipkart,Shopping,67000,Expense,Credit Card
+TXN0156,2026-08-25,College Fees,Education,110000,Expense,Net Banking
+TXN0157,2026-08-26,Uber,Travel,850,Expense,UPI
+TXN0158,2026-08-27,Croma,Electronics,98000,Expense,Credit Card
+TXN0159,2026-08-28,Zomato,Food,1750,Expense,UPI
+TXN0160,2026-08-29,Hostel Rent,Rent,56000,Expense,Net Banking
+TXN0161,2026-08-30,Amazon,Shopping,31500,Expense,UPI
+TXN0162,2026-08-31,Hospital,Healthcare,74000,Expense,Debit Card
+TXN0163,2026-08-01,Netflix,Entertainment,649,Expense,Credit Card
+TXN0164,2026-08-02,MakeMyTrip,Travel,95000,Expense,Credit Card
+TXN0165,2026-08-03,Reliance Digital,Electronics,85000,Expense,Credit Card
+TXN0166,2026-08-04,Jio,Bills,799,Expense,UPI
+TXN0167,2026-08-05,Udemy,Education,2999,Expense,Debit Card
+TXN0168,2026-08-06,House Rent,Rent,64000,Expense,Net Banking
+TXN0169,2026-08-07,Flipkart,Shopping,55000,Expense,UPI
+TXN0170,2026-08-08,Apollo Pharmacy,Healthcare,4200,Expense,Debit Card
+TXN0171,2026-08-09,BookMyShow,Entertainment,1950,Expense,UPI
+TXN0172,2026-08-10,Insurance,Bills,115000,Expense,Net Banking
+TXN0173,2026-08-11,Restaurant,Food,3800,Expense,Credit Card
+TXN0174,2026-08-12,Apple Store,Electronics,225000,Expense,Credit Card
+TXN0175,2026-08-13,Ola,Travel,680,Expense,UPI
+TXN0176,2026-08-14,Myntra,Shopping,60500,Expense,Credit Card
+TXN0177,2026-08-15,Electricity,Utilities,3900,Expense,UPI
+TXN0178,2026-08-16,Coursera,Education,4999,Expense,Credit Card
+TXN0179,2026-08-17,Hospital,Healthcare,180000,Expense,Debit Card
+TXN0180,2026-08-18,Spotify,Entertainment,199,Expense,UPI
+TXN0181,2026-08-19,Amazon,Shopping,52500,Expense,UPI
+TXN0182,2026-08-20,IRCTC,Travel,61000,Expense,Debit Card
+TXN0183,2026-08-21,Water Bill,Utilities,1500,Expense,UPI
+TXN0184,2026-08-22,College Fees,Education,105000,Expense,Net Banking
+TXN0185,2026-08-23,Swiggy,Food,2300,Expense,UPI
+TXN0186,2026-08-24,Croma,Electronics,69000,Expense,Credit Card
+TXN0187,2026-08-25,Airtel,Bills,899,Expense,UPI
+TXN0188,2026-08-26,House Rent,Rent,61000,Expense,Net Banking
+TXN0189,2026-08-27,Amazon,Shopping,42000,Expense,UPI
+TXN0190,2026-08-28,MakeMyTrip,Travel,86000,Expense,Credit Card
+TXN0191,2026-08-29,Medical Store,Healthcare,3100,Expense,UPI
+TXN0192,2026-08-30,Netflix,Entertainment,649,Expense,Credit Card
+TXN0193,2026-08-31,Reliance Digital,Electronics,112000,Expense,Credit Card
+TXN0194,2026-08-01,Jio,Bills,899,Expense,UPI
+TXN0195,2026-08-02,Book Store,Education,3500,Expense,Debit Card
+TXN0196,2026-08-03,Hostel Rent,Rent,57000,Expense,Net Banking
+TXN0197,2026-08-04,Flipkart,Shopping,58000,Expense,UPI
+TXN0198,2026-08-05,Hospital,Healthcare,68000,Expense,Debit Card
+TXN0199,2026-08-06,BookMyShow,Entertainment,2600,Expense,UPI
+TXN0200,2026-08-07,Insurance,Bills,105000,Expense,Net Banking
