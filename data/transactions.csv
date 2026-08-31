@@ -1,0 +1,13 @@
+date,description,category,amount,type
+2026-07-02,Amazon Shopping,Shopping,62000,Debit
+2026-07-05,Electricity Bill,Bills,12500,Debit
+2026-07-08,Flight Booking,Travel,55000,Debit
+2026-07-12,Restaurant,Food,3200,Debit
+2026-07-15,Salary,Credit,85000,Credit
+2026-07-18,Hospital,Medical,52000,Debit
+2026-07-22,Flipkart Shopping,Shopping,75000,Debit
+2026-07-25,Hotel Booking,Travel,48000,Debit
+2026-07-28,Insurance,Bills,30000,Debit
+2026-07-30,Electronics Store,Shopping,95000,Debit
+2026-08-02,Restaurant,Food,2500,Debit
+2026-08-05,Shopping,Shopping,18000,Debit
